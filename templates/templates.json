@@ -18,6 +18,18 @@
     ]
   },
   {
+    "title": "ACE3 + CUP",
+    "mods": [
+      "@ace3",
+      "@cba_a3",
+      "@cup_units",
+      "@cup_vehicles",
+      "@cup_vehicles_ace_compat",
+      "@cup_weapons",
+      "@cup_weapons_ace_compat"
+    ]
+  },
+  {
     "title": "ACE3 + RH Acc + RH M4",
     "mods": [
       "@ace3",
@@ -174,6 +186,31 @@
       "@i44_terrains",
       "@ifa3_terrains_lite",
       "@ww2_objects"
+    ]
+  },
+  {
+   "title": "JSRS + CUP",
+   "mods": [
+      "@cba_a3",
+      "@cup_units",
+      "@cup_vehicles",
+      "@cup_weapons",
+      "@jsrs-soundmod",
+      "@jsrs-soundmod-cup-vehicles",
+      "@jsrs-soundmod-cup-weapons" 
+    ]
+  },
+  {
+   "title": "JSRS + RHS",
+   "mods": [
+      "@cba_a3",
+      "@jsrs-soundmod",
+      "@jsrs-soundmod-rhs-afrf",
+      "@jsrs-soundmod-rhs-gref",
+      "@jsrs-soundmod-rhs-usaf",
+      "@rhs_afrf3",
+      "@rhs_gref",
+      "@rhs_usf3" 
     ]
   },
   {
