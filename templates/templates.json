@@ -90,6 +90,7 @@
   {
     "title": "Arma Sweden",
     "mods": [
+      "@a3_thermal_improvement",
       "@ace3",
       "@ace_pharmacy",
       "@alive",
