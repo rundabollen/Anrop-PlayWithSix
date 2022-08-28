@@ -1,7 +1,7 @@
 const axios = require('axios')
 
-const AFISYNC_REPOSITORIES_URL = 'https://armafinland.fi/afisync/repositories.json'
-const ARMA3SYNC_MODS_URL = 'https://arma3sync.anrop.se/manager/api/mods'
+const AFISYNC_REPOSITORIES_URL = 'http://repo.afi.fi/afisync/repositories.json'
+const ARMA3SYNC_MODS_URL = 'https://manager.arma3sync.anrop.se/api/mods'
 
 const resolveMods = (repositoryMods, arma3syncMods) => {
   return repositoryMods.filter((mod) => !mod.optional).map((afisyncMod) => {

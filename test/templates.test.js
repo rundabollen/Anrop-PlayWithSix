@@ -12,12 +12,12 @@ describe('templates', () => {
     nock.disableNetConnect()
     nock.enableNetConnect('127.0.0.1')
 
-    nock('https://armafinland.fi')
+    nock('http://repo.afi.fi')
       .get('/afisync/repositories.json')
       .reply(200, afisyncTestData)
 
-    nock('https://arma3sync.anrop.se')
-      .get('/manager/api/mods')
+    nock('https://manager.arma3sync.anrop.se')
+      .get('/api/mods')
       .reply(200, arma3syncTestData)
   })
 
