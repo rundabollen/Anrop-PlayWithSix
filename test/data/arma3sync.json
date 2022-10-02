@@ -6,7 +6,16 @@
     "name": "@afi_ace3"
   },
   {
-    "name": "@afi_cba_a3"
+    "name": "@afi_cba_a3",
+    "steamWorkshop": {
+      "id": 450814997
+    }
+  },
+  {
+    "name": "@cba_a3",
+    "steamWorkshop": {
+      "id": 450814997
+    }
   },
   {
     "name": "@rhs_afrf3"

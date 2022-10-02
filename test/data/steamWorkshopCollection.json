@@ -1,0 +1,19 @@
+{
+  "response": {
+    "result": 1,
+    "resultcount": 1,
+    "collectiondetails": [
+      {
+        "publishedfileid": "123456789",
+        "result": 1,
+        "children": [
+          {
+            "publishedfileid": "450814997",
+            "sortorder": 0,
+            "filetype": 0
+          }
+        ]
+      }
+    ]
+  }
+}
