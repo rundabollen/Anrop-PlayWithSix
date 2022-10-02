@@ -30,26 +30,17 @@
     ]
   },
   {
-    "title": "ACE3 + RH Acc + RH M4",
-    "mods": [
-      "@ace3",
-      "@ace3_compat_rh_acc",
-      "@ace3_compat_rh_m4",
-      "@cba_a3",
-      "@rh_acc",
-      "@rh_m4_a3"
-    ]
-  },
-  {
     "title": "ACE3 + RHS",
     "mods": [
       "@ace3",
       "@ace3_compat_rhs_afrf3",
       "@ace3_compat_rhs_gref3",
+      "@ace3_compat_rhs_saf3",
       "@ace3_compat_rhs_usf3",
       "@cba_a3",
       "@rhs_afrf3",
       "@rhs_gref",
+      "@rhs_saf",
       "@rhs_usf3"
     ]
   },
@@ -70,21 +61,10 @@
     ]
   },
   {
-    "title": "ACRE",
+    "title": "ACRE2",
     "mods": [
       "@acre2",
       "@cba_a3"
-    ]
-  },
-  {
-    "title": "Anrop TvT ACE3 + STHUD + loadouts",
-    "mods": [
-      "@ace3",
-      "@ace3_particles",
-      "@cba_a3",
-      "@shacktac_user_interface",
-      "@task_force_radio_dev",
-      "@zsn_loadouts"
     ]
   },
   {
@@ -92,40 +72,6 @@
     "mods": [
       "@cup_terrains_core",
       "@cup_terrains_maps"
-    ]
-  },
-  {
-    "title": "Faces of War",
-    "mods": [
-      "@cba_a3",
-      "@fow"
-    ]
-  },
-  {
-    "title": "Iron Front",
-    "mods": [
-      "@cup_terrains_core",
-      "@ifa3_aio_lite"
-    ]
-  },
-  {
-    "title": "Iron Front + ACE3",
-    "mods": [
-      "@ace3",
-      "@cba_a3",
-      "@cup_terrains_core",
-      "@ifa3_aio_lite",
-      "@ifa3_aio_lite_ace_compatch"
-    ]
-  },
-  {
-    "title": "Iron Front + Faces of War",
-    "mods": [
-      "@cba_a3",
-      "@cup_terrains_core",
-      "@fow",
-      "@ifa3_aio_lite",
-      "@iron-front-arma-3-faces-of-war-compatibility-patch"
     ]
   },
   {
@@ -147,49 +93,12 @@
       "@jsrs-soundmod",
       "@jsrs-soundmod-rhs-afrf",
       "@jsrs-soundmod-rhs-gref",
+      "@jsrs-soundmod-rhs-saf",
       "@jsrs-soundmod-rhs-usaf",
       "@rhs_afrf3",
       "@rhs_gref",
+      "@rhs_saf",
       "@rhs_usf3" 
-    ]
-  },
-  {
-    "title": "JTF16",
-    "mods": [
-      "@3den_enhanced",
-      "@ace3",
-      "@acex_a3",
-      "@advanced_rappelling",
-      "@adv_sling_loading",
-      "@adv_urban_rappeling",
-      "@ares_mod_achilles_expansion",
-      "@ctab",
-      "@em",
-      "@jtf16_acre2",
-      "@jtf16_atv",
-      "@jtf16_cba_a3",
-      "@jtf16_ctab",
-      "@jtf16_extras",
-      "@jtf16_rhs",
-      "@jtf16_units",
-      "@jtf16_vsm",
-      "@mgm_grips",
-      "@pack-press",
-      "@project_opfor",
-      "@rds_civpack",
-      "@rhs_afrf3",
-      "@rhs_gref",
-      "@rhs_usf3",
-      "@rhssaf",
-      "@shacktac_user_interface"
-    ]
-  },
-  {
-    "title": "Project OPFOR",
-    "mods": [
-      "@project_opfor",
-      "@rhs_afrf3",
-      "@rhs_usf3"
     ]
   },
   {
@@ -197,6 +106,7 @@
     "mods": [
       "@rhs_afrf3",
       "@rhs_gref",
+      "@rhs_saf",
       "@rhs_usf3"
     ]
   },
@@ -205,16 +115,6 @@
     "mods": [
       "@cba_a3",
       "@sfp"
-    ]
-  },
-  {
-    "title": "SFP Islands",
-    "mods": [
-      "@cup_terrains_core",
-      "@cup_terrains_maps",
-      "@sfp_objects",
-      "@sfp_sturkoe_island",
-      "@sfp_wamako"
     ]
   },
   {
@@ -229,56 +129,6 @@
     "mods": [
       "@cba_a3",
       "@task_force_radio_dev"
-    ]
-  },
-  {
-    "title": "ZluskeN Cold War Units",
-    "mods": [
-      "@cba_a3",
-      "@cup_units",
-      "@cup_vehicles",
-      "@cup_weapons",
-      "@us_military_mod_a3",
-      "@zsn_coldwar"
-    ]
-  },
-  {
-    "title": "ZluskeN Cold War Units (ACE + HLC + RH)",
-    "mods": [
-      "@ace3",
-      "@ace3_compat_rh_acc",
-      "@ace3_compat_rh_m4",
-      "@cba_a3",
-      "@cup_units",
-      "@cup_vehicles",
-      "@cup_vehicles_ace_compat",
-      "@cup_weapons",
-      "@cup_weapons_ace_compat",
-      "@niarms_niarsenal",
-      "@niarmsar15_ace3",
-      "@niarmsfal_ace",
-      "@niarmsg3_ace",
-      "@niarmsmp5_ace",
-      "@rh_acc",
-      "@rh_m4_a3",
-      "@us_military_mod_a3",
-      "@zsn_coldwar",
-      "@zsn_coldwar_hc_east",
-      "@zsn_coldwar_rh_west"
-    ]
-  },
-  {
-    "title": "ZluskeN Cold War Units (RHS)",
-    "mods": [
-      "@cba_a3",
-      "@cup_units",
-      "@cup_weapons",
-      "@rhs_afrf3",
-      "@rhs_usf3",
-      "@us_military_mod_a3",
-      "@zsn_coldwar",
-      "@zsn_coldwar_rhs_west",
-      "@zsn_coldwar_rhs_east"
     ]
   }
 ]
