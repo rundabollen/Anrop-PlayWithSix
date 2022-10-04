@@ -32,7 +32,7 @@ describe('templates', () => {
   })
 
   describe('GET /', () => {
-    it('should respond with json', (done) => {
+    it('should respond with json', () => {
       const responseData = [
         {
           mods: [
@@ -54,14 +54,12 @@ describe('templates', () => {
         }
       ].concat(templatesData).sort((a, b) => a.title.localeCompare(b.title))
 
-      request(app)
+      return request(app)
         .get('/')
         .set('Accept', 'application/json')
         .expect(200)
-        .end((err, res) => {
-          if (err) return done(err)
+        .then((res) => {
           expect(res.body).toEqual(responseData)
-          done()
         })
     })
   })
