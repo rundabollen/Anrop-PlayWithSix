@@ -75,6 +75,41 @@
     ]
   },
   {
+    "title": "Friday Night Fight",
+    "mods": [
+      "@3cb_factions",
+      "@ace3",
+      "@ace3_compat_rhs_afrf3",
+      "@ace3_compat_rhs_gref3",
+      "@ace3_compat_rhs_saf3",
+      "@ace3_compat_rhs_usf3",
+      "@cba_a3",
+      "@cup_terrains_core",
+      "@cup_terrains_maps",
+      "@diwako_dui",
+      "@enhanced_movement",
+      "@enhanced_movement_rework",
+      "@fnf",
+      "@g-o-s-al-rayak",
+      "@grad_trenches",
+      "@hellanmaa",
+      "@ifx_ace3_window_break",
+      "@kujari",
+      "@lingor_a3",
+      "@mutambara",
+      "@pulau",
+      "@rhs_afrf3",
+      "@rhs_gref",
+      "@rhs_saf",
+      "@rhs_usf3",
+      "@rosche",
+      "@ruha",
+      "@suursaari",
+      "@task_force_radio_dev",
+      "@umb_colombia"
+    ]
+  },
+  {
    "title": "JSRS + CUP",
    "mods": [
       "@cba_a3",
